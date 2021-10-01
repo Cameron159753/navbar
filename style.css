@@ -85,8 +85,8 @@ li a .active {
     background-image: url("images/tech.webp");
   
     /* Add the blur effect */
-    filter: blur(1px);
-    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-filter: blur(px);
   
     /* Full height */
     height: 100%;
@@ -113,15 +113,47 @@ li a .active {
     padding: 20px;
     text-align: center;
   }
-
-
+  
+  .cont {
+    position: relative;
+    width: 30%;
+    float: left;
+    
+  }
+  
+  .cont:hover .image {
+    opacity: 0.3;
+  }
+  
+  .cont:hover .middle {
+    opacity: 1;
+  }
+  
+  .con {
+    position: relative;
+    width: 30%;
+    float: right;
+    
+  }
+  .con:hover .image {
+    opacity: 0.3;
+  }
+  
+  .con:hover .middle {
+    opacity: 1;
+  }
+  
+  
 
 
   .container {
     position: relative;
     width: 30%;
     float: left;
+    
   }
+  
+  
   
   .image {
     opacity: 1;
