@@ -103,6 +103,39 @@ li a .active {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
+    border: 3px solid #f4f5f7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .tact-image {
+    /* The image used */
+    background-image: url("images/mountain.jpeg");
+  
+    /* Add the blur effect */
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .tact-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
     top: 50%;
@@ -117,7 +150,9 @@ li a .active {
   .cont {
     position: relative;
     width: 30%;
-    float: left;
+    float: middle;
+    margin-left: auto;
+    margin-right: auto;
     
   }
   
@@ -143,23 +178,18 @@ li a .active {
     opacity: 1;
   }
   
-  
-
-
   .container {
     position: relative;
     width: 30%;
     float: left;
     
   }
-  
-  
-  
+ 
   .image {
     opacity: 1;
     display: block;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     transition: .5s ease;
     backface-visibility: hidden;
   }
