@@ -85,8 +85,8 @@ li a .active {
     background-image: url("images/tech.webp");
   
     /* Add the blur effect */
-    filter: blur(3px);
-    -webkit-filter: blur(px);
+    filter: blur(4px);
+    -webkit-filter: blur(2px);
   
     /* Full height */
     height: 100%;
@@ -115,11 +115,11 @@ li a .active {
   }
   .tact-image {
     /* The image used */
-    background-image: url("images/mountain.jpeg");
+    background-image: url("images/life.jpg");
   
     /* Add the blur effect */
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
+    filter: blur(5px);
+    -webkit-filter: blur(3px);
   
     /* Full height */
     height: 100%;
@@ -136,7 +136,7 @@ li a .active {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
-    border: 3px solid #f1f1f1;
+    
     position: absolute;
     top: 50%;
     left: 50%;
