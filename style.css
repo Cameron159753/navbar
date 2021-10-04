@@ -147,49 +147,29 @@ li a .active {
     text-align: center;
   }
   
-  .cont {
-    position: relative;
-    width: 30%;
-    float: middle;
-    margin-left: auto;
-    margin-right: auto;
-    
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
   }
   
-  .cont:hover .image {
-    opacity: 0.3;
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
-  
-  .cont:hover .middle {
-    opacity: 1;
-  }
-  
-  .con {
-    position: relative;
-    width: 30%;
-    float: right;
-    
-  }
-  .con:hover .image {
-    opacity: 0.3;
-  }
-  
-  .con:hover .middle {
-    opacity: 1;
-  }
-  
+
   .container {
     position: relative;
-    width: 30%;
-    float: left;
-    
+    width: 100%;
   }
- 
+  
   .image {
     opacity: 1;
     display: block;
-    width: 40%;
-    height: 40%;
+    width: 100%;
+    height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
   }
@@ -218,3 +198,4 @@ li a .active {
     font-size: 16px;
     padding: 16px 32px;
   }
+  
