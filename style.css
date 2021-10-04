@@ -14,6 +14,7 @@ ul {
     
     /*  */
     background-color: #333;
+    
 }
 /* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
 li {
@@ -99,8 +100,8 @@ li a .active {
   
   /* Position text in the middle of the page/image */
   .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
     color: white;
     font-weight: bold;
     border: 3px solid #f4f5f7;
@@ -114,7 +115,7 @@ li a .active {
     text-align: center;
   }
   .tact-image {
-    /* The image used */
+   
     background-image: url("images/life.jpg");
   
     /* Add the blur effect */
@@ -132,8 +133,8 @@ li a .active {
   
   /* Position text in the middle of the page/image */
   .tact-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
     color: white;
     font-weight: bold;
     
@@ -153,7 +154,7 @@ li a .active {
     padding: 5px;
   }
   
-  /* Clear floats after image containers */
+  
   .row::after {
     content: "";
     clear: both;
@@ -251,4 +252,5 @@ li a .active {
   }
   h2{
     color: white;
+    text-align: center;
   }
